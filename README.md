@@ -76,9 +76,8 @@ Json File Structure looks like this:
 
 - ## Misc (False Positives/Contact/Image Info):
 
-During testing Windows Defender would flag the release .rar as a Trojan on about 50% of devices. Making different versions of the .rar file i realized that no matter the code
-having the Json.dll and the .exe in the same folder would often trigger anti virus false flags. Changing from .rar to .zip for the release files seems to have fixed that
-issue. I also uploaded the new release to https://www.virustotal.com/gui:
+During testing Windows Defender would flag the release .rar as a Trojan on about 50% of devices. Making different versions of the .rar file i realized that no matter the code, having the Json.dll and the .exe in the same folder would often trigger anti virus false flags. Changing from .rar to .zip for the release files seems to have fixed that
+issue. Link to the newest release uploaded to VirusTotal:
 
 https://www.virustotal.com/gui/file/f3a43cd338b347935661c74f277323851c4a4cc52934e5f68d2546921322644a/detection
 ![alt-text](https://i.imgur.com/2KItH5U.png)
