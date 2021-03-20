@@ -8,7 +8,7 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("NijiLive")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Checks livestream status of YT-channels.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("NijiLive")]
