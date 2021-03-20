@@ -3,10 +3,10 @@
 
 Checks what YT channels out of a given list are currently streaming.
 
-- ## Why does this exist:
+- ## Why does it exist:
 
 Following a massive amount of YT channels that focus on live streaming can easily clutter up the subfeed with streaming VODs.
-While some companies offer websites of their own to see wich of their talent is currently streaming, for talent of other companies aswell
+While some companies offer good websites of their own to see wich of their talent is currently streaming, for talent of other companies aswell
 as independant streamers there is no way to easily check wether they are streaming outside of manually looking up each channel.
 
 - ## How does it work:
@@ -80,7 +80,7 @@ Potentially might trigger a false positive on Windows Defender, during testing o
 either due to the programm being able to make a rather large amount of web requests or it calling your system's default browser when you double click on a channel.
 Anyway if you are worried about this being a trojan you can either read through the code and build it yourself (main reason why i made this open source), only use it
 in a safe environment (eg. VM), scan it on sites like VirusTotal (https://www.virustotal.com/gui/) or simply pass on using it altogether. For reference this is the link
-to the VirusTotal page when i uploaded the NijiLive v1.0.rar: 
+to the VirusTotal page when i uploaded the NijiLive.v1.0.rar: 
 
 https://www.virustotal.com/gui/file/1aea8bb5359b4ca8790747645d17b004486d796a850e6a894c705aab909aa755/detection
 ![alt-text](https://i.imgur.com/PEw0yqZ.png)
