@@ -57,12 +57,12 @@ eg. https://www.youtube.com/channel/ {ID} , do NOT add /live at the end as the p
 Clicking on a channel in your YT subscription list should lead you to an URL like this anyway. 
 If you have trouble finding the channel ID of a YT channel you can also use: https://commentpicker.com/youtube-channel-id.php
 
-(Note: VirtualYoutuberWiki also links channels using their ID so you can also copy it from there.)
+(Note: VirtualYoutuberWiki also links channels using their ID so you can copy it from there aswell.)
 
 The Agency field checks if you entered something (if the streamer is independant just enter independant), Region is simply any 2 letters and there are no checks for the
 Gen field.
 
-You can double check if the channel was added correctly by double clicking the channel in the list, even if the channel isn't live the link will simply direct
+You can double check if the channel was added correctly by double clicking the channel in the list, even if the channel isn't live the link will direct
 you to their channel page.
 
 - Dependencies (Json/.Net):
