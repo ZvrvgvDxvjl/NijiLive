@@ -16,7 +16,7 @@ It does not use the YT-API due to there not being a way to check the livestream 
 
 - How to use:
 
-First either download the Release.rar (top right of this page) or build the programm using the source code.
+First either download the NijiLive.v1.0.rar (top right of this page under category "Releases") or build the programm yourself using the source code.
 When you open the programm it will look like this:
 ![alt text](https://i.imgur.com/SovM1Aw.png)
 
