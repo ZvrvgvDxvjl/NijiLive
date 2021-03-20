@@ -3,18 +3,18 @@
 
 Checks what YT channels out of a given list are currently streaming.
 
-- Why does this exist:
+##- Why does this exist:
 
 Following a massive amount of YT channels that focus on live streaming can easily clutter up the subfeed with streaming VODs.
 While some companies offer websites of their own to see wich of their talent is currently streaming, for talent of other companies aswell
 as independant streamers there is no way to easily check wether they are streaming outside of manually looking up each channel.
 
-- How does it work:
+##- How does it work:
 
 The App sends a HTTP-GET to each channel's livestream URL and analyses the returned HTML to find out wether it is currently live or not.
 It does not use the YT-API due to there not being a way to check the livestream status of channels that aren't yours.
 
-- How to use:
+##- How to use:
 
 First either download the NijiLive.v1.0.rar (top right of this page under category "Releases") or build the programm yourself using the source code.
 When you open the programm it will look like this:
@@ -65,7 +65,7 @@ Gen field.
 You can double check if the channel was added correctly by double clicking the channel in the list, even if the channel isn't live the link will direct
 you to their channel page.
 
-- Dependencies (Json/.Net):
+##- Dependencies (Json/.Net):
 
 This programm uses Newtensoft.Json to serialize the lists and therefore needs the Newtensoft.Json.dll to run. This programm will only run on Windows
 and requires .Net Framework 4.7.2 or newer.
@@ -74,7 +74,7 @@ Json File Structure looks like this:
 
 ![alt-text](https://i.imgur.com/Qq2BdGU.png)
 
-- Misc (False Positives/Contact/Image Info):
+##- Misc (False Positives/Contact/Image Info):
 
 Potentially might trigger a false positive on Windows Defender, during testing on a friend's PC it got flagged as "Trojan:Script/Wacatac.B!ml". I suspect this is
 either due to the programm being able to make a rather large amount of web requests or it calling your system's default browser when you double click on a channel.
