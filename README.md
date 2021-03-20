@@ -20,7 +20,7 @@ First either download the Release.rar (top right of this page) or build the prog
 When you open the programm it will look like this:
 ![alt text](https://i.imgur.com/SovM1Aw.png)
 
-If you downloaded the release version or already have a channel list you can click on Load List and select the list you want to load. Itt will then display all the
+If you downloaded the release version or already have a channel list you can click on Load List and select the list you want to load. It will then display all the
 channels in that list like this:
 ![alt test](https://i.imgur.com/l2WYsJw.png)
 
