@@ -16,7 +16,7 @@ It does not use the YT-API due to there not being a way to check the livestream 
 
 - ## How to use:
 
-First either download the NijiLive.v1.0.rar (top right of this page under category "Releases") or build the programm yourself using the source code.
+First either download the NijiLive.v1.0.zip (top right of this page under category "Releases") or build the programm yourself using the source code.
 When you open the programm it will look like this:
 ![alt text](https://i.imgur.com/SovM1Aw.png)
 
@@ -76,15 +76,13 @@ Json File Structure looks like this:
 
 - ## Misc (False Positives/Contact/Image Info):
 
-Potentially might trigger a false positive on Windows Defender, during testing on a friend's PC it got flagged as "Trojan:Script/Wacatac.B!ml". I suspect this is
-either due to the programm being able to make a rather large amount of web requests or it calling your system's default browser when you double click on a channel.
-Anyway if you are worried about this being a trojan you can either read through the code and build it yourself (main reason why i made this open source), only use it
-in a safe environment (eg. VM), scan it on sites like VirusTotal (https://www.virustotal.com/gui/) or simply pass on using it altogether. For reference this is the link
-to the VirusTotal page when i uploaded the NijiLive.v1.0.rar: 
+During testing Windows Defender would flag the release .rar as a Trojan on about 50% of devices. Making different versions of the .rar file i realized that no matter the code
+having the Json.dll and the .exe in the same folder would often trigger anti virus false flags. Changing from .rar to .zip for the release files seems to have fixed that
+issue. I also uploaded the new release to https://www.virustotal.com/gui:
 
-https://www.virustotal.com/gui/file/1aea8bb5359b4ca8790747645d17b004486d796a850e6a894c705aab909aa755/detection
-![alt-text](https://i.imgur.com/PEw0yqZ.png)
+https://www.virustotal.com/gui/file/f3a43cd338b347935661c74f277323851c4a4cc52934e5f68d2546921322644a/detection
+![alt-text](https://i.imgur.com/2KItH5U.png)
 
-If you find any bug and don't want to use GitHub yourself you can contact me on Discord "really bad meme#7036".
+If you find any bug or have issues with AV false flags and don't want to use GitHub yourself you can contact me on Discord "really bad meme#7036".
 
 All images used in this ReadMe are hosted on imgur.com
