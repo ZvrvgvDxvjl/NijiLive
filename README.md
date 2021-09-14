@@ -82,6 +82,4 @@ issue. Link to the newest release uploaded to VirusTotal:
 https://www.virustotal.com/gui/file/f3a43cd338b347935661c74f277323851c4a4cc52934e5f68d2546921322644a/detection
 ![alt-text](https://i.imgur.com/2KItH5U.png)
 
-If you find any bug or have issues with AV false flags and don't want to use GitHub yourself you can contact me on Discord "really bad meme#7036".
-
 All images used in this ReadMe are hosted on imgur.com
